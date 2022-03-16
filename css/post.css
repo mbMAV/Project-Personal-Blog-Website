@@ -1,1 +1,13 @@
-/*start*/
+.box{
+    background-color: aquamarine;
+    border: red;
+}
+
+.container{
+    background-color: blue;
+    border: red;
+}
+
+#all{
+    display: grid;
+}
