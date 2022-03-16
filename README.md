@@ -1,0 +1,1 @@
+This Project is about creating an personal blog website.
