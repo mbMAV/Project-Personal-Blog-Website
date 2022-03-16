@@ -1,11 +1,11 @@
 .box{
     background-color: aquamarine;
-    border: red;
+    border: solid orange;
 }
 
 .container{
     background-color: blue;
-    border: red;
+    border: solid red;
 }
 
 #all{
