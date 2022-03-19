@@ -1,14 +1,6 @@
-.box{
-    background-color: aquamarine;
-    border: solid orange;
-}
-
 .container{
     background-color: blue;
     border: solid red;
-}
-
-#all{
     width: 100%;
     height: 100%;
     display: grid;
@@ -20,14 +12,40 @@
     "ft";
 }
 
+.box{
+    background-color: aquamarine;
+    border: solid orange;
+}
+
 #nav{
     grid-area: nv;
 }
 
 #post_card{
     grid-area: pc;
+    display: flex;
+    flex-direction: column;
 }
 
 #footer{
     grid-area: ft;
+}
+
+#card_figure{
+    border: 2px #dddddd solid;
+    padding: 4px;
+    margin: auto;
+}
+
+#card_caption{
+    background-color: black;
+    color: #dddddd;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+.image{
+    width: 400px;
+    object-fit: scale-down;
 }
