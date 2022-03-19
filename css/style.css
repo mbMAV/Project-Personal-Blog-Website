@@ -13,11 +13,10 @@
     height: 100%;
     display: grid;
     grid-template-columns: 500px;
-    grid-template-rows: 100px 200px 400px 40px;
+    grid-template-rows: 200px 400px 40px;
     grid-template-areas: 
     "nv"
-    "sb"
-    "ma"
+    "pc"
     "ft";
 }
 
@@ -25,12 +24,8 @@
     grid-area: nv;
 }
 
-#main{
-    grid-area: ma;
-}
-
-#sidebar{
-    grid-area: sb;
+#post_card{
+    grid-area: pc;
 }
 
 #footer{
