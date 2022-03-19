@@ -23,6 +23,11 @@
 
 #head{
     grid-area: hd;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 #author_info{
