@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-#footer{
+#social_links{
     grid-area: ft;
     display: flex;
     flex-direction: row;
