@@ -15,14 +15,14 @@
     grid-template-columns: 500px;
     grid-template-rows: 100px 200px 400px 40px;
     grid-template-areas: 
-    "hd"
+    "nv"
     "sb"
     "ma"
     "ft";
 }
 
-#head{
-    grid-area: hd;
+#nav{
+    grid-area: nv;
 }
 
 #main{
