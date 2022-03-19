@@ -26,14 +26,14 @@
     padding: 10px;
 }
 
-#post_card{
+#postCard{
     grid-area: pc;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#social_links{
+#socialLinks{
     grid-area: ft;
     display: flex;
     flex-direction: row;
@@ -41,13 +41,13 @@
     align-items: center;
 }
 
-#card_figure{
+#cardFigure{
     border: 2px #dddddd solid;
     padding: 4px;
     margin: auto;
 }
 
-#card_caption{
+#cardCaption{
     background-color: black;
     color: #dddddd;
     font-style: italic;
@@ -60,7 +60,7 @@
     object-fit: scale-down;
 }
 
-#post_link{
+#postLink{
     font-weight: bold;
     width: 100px;
     margin: auto;

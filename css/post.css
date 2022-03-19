@@ -48,7 +48,7 @@
     justify-content: flex-end;
 }
 
-#social_links{
+#socialLinks{
     grid-area: so;
     display: flex;
     flex-direction: row;
