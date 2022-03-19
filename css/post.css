@@ -30,7 +30,7 @@
     padding: 10px;
 }
 
-#author_info{
+#authorInfo{
     grid-area: ai;
     display: grid;
     grid-template-columns: 100px 1fr;
@@ -40,6 +40,10 @@
 
 #content{
     grid-area:co;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
 }
 
 #social_links{
@@ -57,13 +61,27 @@
     grid-row: 2;
 }
 
-#biohead{
-    padding: 10px;;
+#bioHead{
+    padding: 10px;
+    padding-left: 40px;
     grid-column: 1;
     grid-row: 1;
 }
 
-#biolist{
+#bioList{
     grid-column: 2;
     grid-row: 2;
+}
+
+.image{
+    width: 400px;
+    object-fit: scale-down;
+}
+
+.photoBox{
+    width: 1fr;
+    height: 1fr;
+    background-color: black;
+    background-image: url(https://mbmav.github.io/Project-Personal-Blog-Website/img/mountain2.jpg);
+    background-size: contain;
 }
