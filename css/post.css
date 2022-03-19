@@ -16,23 +16,23 @@
     grid-template-rows: 100px 200px 400px 40px;
     grid-template-areas: 
     "hd"
-    "sb"
+    "ai"
     "co"
-    "ft";
+    "so";
 }
 
 #head{
     grid-area: hd;
 }
 
+#autor_info{
+    grid-area: ai;
+}
+
 #content{
     grid-area:co;
 }
 
-#sidebar{
-    grid-area: sb;
-}
-
-#footer{
-    grid-area: ft;
+#social{
+    grid-area: so;
 }
