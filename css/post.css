@@ -44,6 +44,8 @@
     flex-direction: column;
     padding: 10px;
     color: white;
+    font-weight: bold;
+    justify-content: flex-end;
 }
 
 #social_links{
@@ -83,5 +85,5 @@
     height: 1fr;
     background-color: black;
     background-image: url(https://mbmav.github.io/Project-Personal-Blog-Website/img/mountain2.jpg);
-    background-size: contain;
+    background-size: cover;
 }
