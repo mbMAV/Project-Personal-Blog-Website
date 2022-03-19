@@ -5,7 +5,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: 500px;
-    grid-template-rows: 200px 400px 40px;
+    grid-template-rows: 150px 400px 40px;
     grid-template-areas: 
     "nv"
     "pc"
@@ -17,8 +17,13 @@
     border: solid orange;
 }
 
-#nav{
+#navi{
     grid-area: nv;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 #post_card{
