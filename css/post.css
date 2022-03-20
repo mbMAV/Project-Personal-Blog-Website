@@ -1,6 +1,8 @@
-@import url("https://mbmav.github.io/Project-Personal-Blog-Website/css/post_medium.css");
+@import "post_medium.css";
 
-@import url("https://mbmav.github.io/Project-Personal-Blog-Website/css/post_big.css");
+@import "post_big.css";
+
+@import "link_style.css";
 
 body{
     background-color: black;
@@ -124,11 +126,4 @@ body{
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
-}
-
-.link{
-    font-family: monospace;
-    font-style: normal;
-    font-size: smaller;
-    font-weight: bold;
 }
