@@ -86,7 +86,39 @@
     background-position: left bottom;
 }
 
+.mainHeading{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 150%;
+}
 
+.item{
+    font-family: serif;
+    font-style: normal;
+    font-size: large;
+    font-weight: bold;
+}
+
+.postheading{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.text{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.link{
+    font-family: monospace;
+    font-style: normal;
+    font-size: smaller;
+    font-weight: bold;
+}
 
 @media (min-width: 501px) and (max-width: 900px) {
     .container {
