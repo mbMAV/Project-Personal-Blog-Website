@@ -86,6 +86,8 @@
     background-position: left bottom;
 }
 
+
+
 @media (min-width: 501px) and (max-width: 900px) {
     .container {
         background-color: blue;
