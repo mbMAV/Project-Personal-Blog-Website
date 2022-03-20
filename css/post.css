@@ -1,11 +1,15 @@
+body{
+    background-color: black;
+}
+
 .container{
-    background-color: blue;
-    border: solid red;
+    background-color: black;
     width: 100%;
     height: 100%;
+    padding: 20px;
     display: grid;
-    grid-template-columns: 95vw;
-    grid-template-rows: 150px 200px 400px 40px;
+    grid-template-columns: 90vw;
+    grid-template-rows: 150px 220px 400px 40px;
     grid-template-areas: 
     "hd"
     "ai"
@@ -14,8 +18,8 @@
 }
 
 .box{
-    background-color: aquamarine;
-    border: solid orange;
+    background-color: black;
+    border: solid darkgray;
 }
 
 #head{
@@ -31,7 +35,7 @@
     grid-area: ai;
     display: grid;
     grid-template-columns: 100px 1fr;
-    grid-template-rows: 50px 100px 1fr;
+    grid-template-rows: 50px 1fr;
     grid-gap: 20px;
 }
 
@@ -61,6 +65,7 @@
 }
 
 #bioHead{
+    color: cornsilk;
     padding: 10px;
     padding-left: 40px;
     grid-column: 1;
@@ -87,6 +92,7 @@
 }
 
 .mainHeading{
+    color: cornsilk;
     font-family: sans-serif;
     font-style: oblique;
     font-weight: bold;
@@ -94,6 +100,7 @@
 }
 
 .item{
+    color: cornsilk;
     font-family: serif;
     font-style: normal;
     font-size: large;
@@ -101,13 +108,15 @@
 }
 
 .postheading{
+    color: white;
     font-family: sans-serif;
-    font-style: oblique;
+    font-style: italic;
     font-weight: bold;
     font-size: 150%;
 }
 
 .text{
+    color: white;
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -122,8 +131,7 @@
 
 @media (min-width: 501px) and (max-width: 900px) {
     .container {
-        background-color: blue;
-        border: solid red;
+        background-color: black;
         width: 100%;
         height: 100%;
         display: grid;
@@ -134,5 +142,47 @@
         "ai"
         "co"
         "so";
+    }
+}
+
+
+@media (min-width: 901px) {
+    .container {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 20vw 75vw;
+        grid-template-rows: 150px 500px 40px;
+        grid-template-areas: 
+        "hd hd"
+        "ai co"
+        "so so";
+    }
+
+    #authorInfo{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50px 100px 1fr;
+        grid-gap: 20px;
+    }
+
+    #avatar{
+        width: 100px;
+        padding: 10px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #bioHead{
+        padding: 10px;
+        padding-left: 40px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #bioList{
+        grid-column: 1;
+        grid-row: 3;
     }
 }
