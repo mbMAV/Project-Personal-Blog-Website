@@ -15,7 +15,7 @@ body{
     padding: 20px;
     display: grid;
     grid-template-columns: 90vw;
-    grid-template-rows: 150px 220px 400px 40px;
+    grid-template-rows: 150px 280px 500px 40px;
     grid-template-areas: 
     "hd"
     "ai"
