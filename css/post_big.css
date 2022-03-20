@@ -1,0 +1,40 @@
+@media (min-width: 901px) {
+    .container {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 20vw 75vw;
+        grid-template-rows: 150px 500px 40px;
+        grid-template-areas: 
+        "hd hd"
+        "ai co"
+        "so so";
+    }
+
+    #authorInfo{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50px 100px 1fr;
+        grid-gap: 20px;
+    }
+
+    #avatar{
+        width: 100px;
+        padding: 10px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #bioHead{
+        padding: 10px;
+        padding-left: 40px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #bioList{
+        grid-column: 1;
+        grid-row: 3;
+    }
+}
