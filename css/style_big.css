@@ -5,7 +5,7 @@
         height: 100%;
         display: grid;
         grid-template-columns: 90vw;
-        grid-template-rows: 150px 1fr 40px;
+        grid-template-rows: 150px 70vh 40px;
         grid-template-areas: 
         "nv"
         "pc"
@@ -13,11 +13,12 @@
     }
 
     .image{
-        width: 70vw;
+        width: 60vw;
         object-fit: scale-down;
     }
 
     #postCard{
+        grid-area: pc;
         flex-direction: column;
         align-items: center;
         padding: 20px;
