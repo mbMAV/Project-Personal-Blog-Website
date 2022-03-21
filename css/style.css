@@ -1,8 +1,8 @@
-@import "style_medium.css";
+@import url("https://mbmav.github.io/Project-Personal-Blog-Website/css/style_medium.css");
 
-@import "style_big.css";
+@import url("https://mbmav.github.io/Project-Personal-Blog-Website/css/style_big.css");
 
-@import "link_style.css";
+@import url("https://mbmav.github.io/Project-Personal-Blog-Website/css/link_style.css");
 
 body{
     background-color: black;
