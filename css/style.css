@@ -1,23 +1,9 @@
-@import url(style_medium.css);
-@import url(style_big.css);
 @import url(link_style.css);
+@import url(heading_styles.css);
+@import url(button_style.css);
 
 body{
     background-color: black;
-}
-
-.container{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 90vw;
-    grid-template-rows: 150px 400px 40px;
-    grid-template-areas: 
-    "nv"
-    "pc"
-    "ft";
 }
 
 .box{
@@ -63,21 +49,70 @@ body{
     text-align: center;
 }
 
-.image{
-    width: 60vw;
-    object-fit: scale-down;
+@media (max-width: 500px) {
+    .container{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 90vw;
+        grid-template-rows: 150px 400px 40px;
+        grid-template-areas: 
+        "nv"
+        "pc"
+        "ft";
+    }
+
+    .image{
+        width: 60vw;
+        object-fit: scale-down;
+    }
 }
 
-#postLink{
-    font-weight: bold;
-    width: 100px;
-    margin: auto;
+@media (min-width: 501px) and (max-width: 900px) {
+    .container {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 90vw;
+        grid-template-rows: 150px 500px 40px;
+        grid-template-areas: 
+        "nv"
+        "pc"
+        "ft";
+    }
+
+    .image{
+        width: 70vw;
+        object-fit: scale-down;
+    }
 }
 
-.mainHeading{
-    color: white;
-    font-family: sans-serif;
-    font-style: oblique;
-    font-weight: bold;
-    font-size: 150%;
+@media (min-width: 901px) {
+    .container {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 90vw;
+        grid-template-rows: 150px 700px 40px;
+        grid-template-areas: 
+        "nv"
+        "pc"
+        "ft";
+    }
+
+    .image{
+        width: 600px;
+        object-fit: scale-down;
+    }
+
+    #postCard{
+        grid-area: pc;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
 }
